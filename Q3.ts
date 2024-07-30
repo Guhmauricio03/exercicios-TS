@@ -7,7 +7,7 @@ const tabuada = (numeros : number[]): string => {
             resultado += `${n} x ${i} = ${n*i} \n`;
 
             if(i === 10){
-                resultado += '------------ \n'
+                resultado += '-------------- \n'
             }
         }
     }
